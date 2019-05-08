@@ -45,9 +45,9 @@ to search by className, it is the same, except you prefix the desired classname 
 search .columns
 ```
 
-to search by identifier, it is the same, except you prefix the desired classname with a period '.'
+to search by identifier, it is the same, except you prefix the desired identifier with a forward slash '/'
 ```
-search .columns
+search /videoMode
 ```
 
 each object with the class of 'Box' will print to the console as JSON and include a red number
