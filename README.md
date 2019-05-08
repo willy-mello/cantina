@@ -39,6 +39,9 @@ search Box
 ```
 hit enter to run your query.
 
+each object with the class of 'Box' will print to the console as JSON and include a red number
+indicating how many object were retrieved
+
 
 to search by className, it is the same, except you prefix the desired classname with a period '.'
 ```
@@ -49,11 +52,6 @@ to search by identifier, it is the same, except you prefix the desired identifie
 ```
 search /videoMode
 ```
-
-each object with the class of 'Box' will print to the console as JSON and include a red number
-indicating how many object were retrieved
-
-
 
 ## Authors
 
