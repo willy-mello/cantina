@@ -2,7 +2,7 @@
   "name": "cantina",
   "version": "1.0.0",
   "description": "a super cool CLI program",
-  "main": "./lib/greet.js",
+  "main": "./lib/search.js",
   "scripts": {
     "test": "test"
   },
@@ -16,8 +16,6 @@
   "author": " (Willy Mello)",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.3.3",
-    "lodash": "^4.17.11",
-    "node-fetch": "^2.5.0"
+    "colors": "^1.3.3"
   }
 }
