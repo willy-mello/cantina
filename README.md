@@ -6,78 +6,61 @@ This is my submission for my Cantina application
 
 You're going to need a recent version of node installed
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
-Give the example
+clone the repo
 ```
 
-And repeat
-
 ```
-until finished
+npm i
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+cd into Cantina
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+npm install -g ./
 ```
 
-## Deployment
+Now you should be ready to rock. 
 
-Add additional notes about how to deploy this on a live system
+## Running the app
+Once you have completed the steps above, you are ready to query our json file.
 
-## Built With
+for every query, you will start with a new global command "search",
+to search by class, simply type search followed by a space, then the class i.e.
+```
+search Box
+```
+hit enter to run your query.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
+to search by className, it is the same, except you prefix the desired classname with a period '.'
+```
+search .columns
+```
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+to search by identifier, it is the same, except you prefix the desired classname with a period '.'
+```
+search .columns
+```
 
-## Versioning
+each object with the class of 'Box' will print to the console as JSON and include a red number
+indicating how many object were retrieved
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Willy Mello** -
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [learned from](https://medium.com/@thatisuday/creating-cli-executable-global-npm-module-5ef734febe32)
+
