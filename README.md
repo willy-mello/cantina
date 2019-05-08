@@ -1,4 +1,4 @@
-# Project Title
+# Cantina Terminal Search
 
 This is my submission for my Cantina application
 
